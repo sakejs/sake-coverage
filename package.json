@@ -6,9 +6,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "executive": "^1.1.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "cake-publish": "^0.1.1",
     "cake-version": "^0.1.3",
