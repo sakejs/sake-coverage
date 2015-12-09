@@ -1,5 +1,6 @@
 require 'shortcake'
 
+use 'cake-build'
 use 'cake-version'
 use 'cake-publish'
 
@@ -10,9 +11,6 @@ option '-v', '--verbose',           'enable verbose test logging'
 
 task 'clean', 'clean project', ->
   exec 'rm -rf lib'
-
-task 'build', 'build project', ->
-  exec 'node_modules/.bin/coffee -bcm -o lib/ src/'
 
 task 'test', 'Run tests', (opts, cb) ->
   grep    = opts.grep             ? ''
