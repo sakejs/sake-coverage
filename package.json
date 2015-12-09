@@ -1,6 +1,6 @@
 {
   "name": "cake-coverage",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Adds `coverage` task to your Cakefile.",
   "main": "lib/",
   "directories": {
