@@ -6,7 +6,12 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "codecov.io": "^0.1.6",
+    "coffee-coverage": "0.7.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.1"
+  },
   "devDependencies": {
     "cake-build": "0.0.3",
     "cake-publish": "^0.1.1",
