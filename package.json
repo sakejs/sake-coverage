@@ -1,6 +1,6 @@
 {
   "name": "sake-coverage",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Adds `coverage` task to your sakefile.",
   "main": "lib/sake-coverage.js",
   "module": "lib/sake-coverage.mjs",
